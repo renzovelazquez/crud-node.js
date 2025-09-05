@@ -9,6 +9,5 @@ app.use('/', mainRoutes);
 
 app.use(require('./src/routes/productos.routers'));
 
-
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 
