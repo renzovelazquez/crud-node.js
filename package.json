@@ -1,0 +1,19 @@
+{
+  "name": "crud-node",
+  "version": "1.0.0",
+  "description": "Crued en Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Renzo H Velazquez",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
